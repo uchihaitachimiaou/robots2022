@@ -68,7 +68,7 @@ class App extends React.Component {
   /// App functions
 
   handleChange = (inputUsers) => {
-    this.setState({ search: inputUsers })
+    this.setState({ search: inputUsers.target.value })
   }
 
   filteredRobots = () => {
